@@ -17,7 +17,7 @@ public class DuckMove : MonoBehaviour
     {
         float controlThrowY= CrossPlatformInputManager.GetAxis("Horizontal");
         float controlThrowX = CrossPlatformInputManager.GetAxis("Vertical");
-        Vector2 duckVelocity = new Vector2(controlThrowY* runSpeed, controlThrowX * runSpeed);
+        Vector2 duckVelocity = new Vector2(controlThrowY* runSpeed/2, controlThrowX * runSpeed/2);
         myRigidBody2D.velocity = duckVelocity;
      
    
