@@ -1,31 +1,43 @@
 fileFormatVersion: 2
-guid: 25818e5af6cb58140ab1ae4d248caee9
+guid: 4db06dfe02e618c49906f4a58873e046
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6474707353563714123
-    second: DUCK_0
+      213: 329275033365158171
+    second: Buff_Sprites_0
   - first:
-      213: -5719972227612556837
-    second: DUCK_1
+      213: 6194212899983976992
+    second: Buff_Sprites_1
   - first:
-      213: -5764601723321201366
-    second: DUCK_2
+      213: 8642539178771535324
+    second: Buff_Sprites_2
   - first:
-      213: -8456200815405255139
-    second: DUCK_3
+      213: 308035379965427991
+    second: Buff_Sprites_5
   - first:
-      213: 5691131156794553677
-    second: DUCK_4
+      213: -4477617682962171472
+    second: Buff_Sprites_4
   - first:
-      213: 290932266517676032
-    second: DUCK_5
+      213: 8999538784466264034
+    second: Buff_Sprites_5
   - first:
-      213: 4865602572359277978
-    second: DUCK_6
+      213: 4457603257613899933
+    second: Buff_Sprites_6
   - first:
-      213: -7969897702921342706
-    second: DUCK_7
+      213: 655507943658732576
+    second: Buff_Sprites_7
+  - first:
+      213: 8214005830743970496
+    second: Buff_Sprites_8
+  - first:
+      213: 2096167988160571464
+    second: Buff_Sprites_5
+  - first:
+      213: -6296166021115212919
+    second: Buff_Sprites_10
+  - first:
+      213: 8094081978670111900
+    second: Buff_Sprites_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -66,13 +78,13 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
-  spriteMeshType: 0
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 1
+  spritePivot: {x: 0, y: 1}
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -127,11 +139,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DUCK_0
+      name: Buff_Sprites_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
+        y: 32
         width: 16
         height: 16
       alignment: 1
@@ -141,18 +153,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4256c99808cad950800000000000000
-      internalID: 6474707353563714123
+      spriteID: b199225f5e1d19400800000000000000
+      internalID: 329275033365158171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DUCK_1
+      name: Buff_Sprites_3
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
+        x: 48
+        y: 32
         width: 16
         height: 16
       alignment: 1
@@ -162,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd1cd0090939e90b0800000000000000
-      internalID: -5719972227612556837
+      spriteID: 7118719cb8c564400800000000000000
+      internalID: 308035379965427991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DUCK_2
+      name: Buff_Sprites_6
       rect:
         serializedVersion: 2
         x: 32
@@ -183,56 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2dc5d956450000b0800000000000000
-      internalID: -5764601723321201366
+      spriteID: d9853bf9b869cdd30800000000000000
+      internalID: 4457603257613899933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DUCK_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d16b668492a85aa80800000000000000
-      internalID: -8456200815405255139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DUCK_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d45b5ea52a5fafe40800000000000000
-      internalID: 5691131156794553677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DUCK_5
+      name: Buff_Sprites_9
       rect:
         serializedVersion: 2
         x: 16
@@ -246,14 +216,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0004c7fda59990400800000000000000
-      internalID: 290932266517676032
+      spriteID: 8482bd3eda5171d10800000000000000
+      internalID: 2096167988160571464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DUCK_6
+      name: Buff_Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aefae60d346f550800000000000000
+      internalID: 6194212899983976992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff_Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5d21cc79770f770800000000000000
+      internalID: 8642539178771535324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff_Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b93807d07e4cd1c0800000000000000
+      internalID: -4477617682962171472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff_Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef5676c7d8c4ec70800000000000000
+      internalID: 8999538784466264034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff_Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cb9317005d81900800000000000000
+      internalID: 655507943658732576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff_Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c25b7c88c20ef170800000000000000
+      internalID: 8214005830743970496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff_Sprites_10
       rect:
         serializedVersion: 2
         x: 32
@@ -267,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9d93bfa2c7168340800000000000000
-      internalID: 4865602572359277978
+      spriteID: 98b0b80cc568f98a0800000000000000
+      internalID: -6296166021115212919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DUCK_7
+      name: Buff_Sprites_11
       rect:
         serializedVersion: 2
         x: 48
@@ -288,8 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e01fb29f34c356190800000000000000
-      internalID: -7969897702921342706
+      spriteID: c9cd581eca4f35070800000000000000
+      internalID: 8094081978670111900
       vertices: []
       indices: 
       edges: []
