@@ -3,9 +3,10 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
-public class DuckMove : MonoBehaviour
+public class Duck : MonoBehaviour
 {
     [SerializeField] float runSpeed = 15f; //Специальные поля, которыми можно управлять внутри юнити
+
     private Rigidbody2D myRigidBody2D;
     private Animator myAnimator;
     void Start()
