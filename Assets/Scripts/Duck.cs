@@ -3,12 +3,42 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
 public class Duck : MonoBehaviour
 {
-    [SerializeField] float runSpeed = 15f; //Специальные поля, которыми можно управлять внутри юнити
-
+    [SerializeField] float runSpeed = 15f;//Специальные поля, которыми можно управлять внутри юнити
+    public int health = 3;
+    public int maxNumberOfHealth;
+    public Image[] hearts;
+    public Sprite fullHeart, emptyHeart;
     private Rigidbody2D myRigidBody2D;
     private Animator myAnimator;
+    private void FixedUpdate()
+    {
+        if (health > maxNumberOfHealth)
+        {
+            health = maxNumberOfHealth;
+        }
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < health)
+            {
+                hearts[i].sprite = fullHeart;
+            }
+            else
+            {
+                hearts[i].sprite = emptyHeart;
+            }
+            if(i < maxNumberOfHealth)
+            {
+                hearts[i].enabled = true;
+            }
+            else
+            {
+                hearts[i].enabled = false;
+            }
+        }
+    }
     void Start()
     {
         myRigidBody2D = GetComponent<Rigidbody2D>();
