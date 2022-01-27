@@ -126,6 +126,7 @@ public class Duck : MonoBehaviour
         //    myAnimator.SetBool("downMoveBool", false);
 
     }
+
     void Update()
     {
         Move();

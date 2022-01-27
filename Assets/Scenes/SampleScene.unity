@@ -450,6 +450,7 @@ GameObject:
   - component: {fileID: 1456744131}
   - component: {fileID: 1456744130}
   - component: {fileID: 1456744133}
+  - component: {fileID: 1456744134}
   m_Layer: 0
   m_Name: TestHammer
   m_TagString: Untagged
@@ -469,7 +470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a719ebe8c4b3514f8d136e256f38df1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.5
   offset: 0.2
 --- !u!212 &1456744131
 SpriteRenderer:
@@ -530,7 +530,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456744129}
   m_LocalRotation: {x: -0, y: -0, z: 0.1524347, w: -0.98831356}
-  m_LocalPosition: {x: 1.09, y: 0.35, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.4813433, y: 0.4813433, z: 0.4813433}
   m_Children: []
   m_Father: {fileID: 1880855256}
@@ -557,6 +557,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &1456744134
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456744129}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000011920929}
+  serializedVersion: 2
+  m_Radius: 0.9
 --- !u!1 &1720975742
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,6 +764,7 @@ GameObject:
   - component: {fileID: 1880855259}
   - component: {fileID: 1880855258}
   - component: {fileID: 1880855260}
+  - component: {fileID: 1880855261}
   m_Layer: 0
   m_Name: Duck
   m_TagString: Untagged
@@ -814,13 +831,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880855254}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.39, y: -0.1, z: 0}
-  m_LocalScale: {x: 2.0775192, y: 2.0775192, z: 2.0775192}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.1005797, y: 2.0775192, z: 2.0775192}
   m_Children:
   - {fileID: 964400745}
   - {fileID: 1456744132}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1880855257
 BoxCollider2D:
@@ -909,6 +926,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!58 &1880855261
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880855254}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.45
 --- !u!1 &2018005177
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,5 +1006,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
